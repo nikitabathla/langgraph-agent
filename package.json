@@ -1,0 +1,27 @@
+{
+  "name": "langgraph-agent",
+  "version": "0.1.0",
+  "description": "Minimal LangGraph practice project with TypeScript and Express.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.12",
+    "@langchain/groq": "^1.0.3",
+    "@langchain/langgraph": "^1.4.17",
+    "@langchain/tavily": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.13.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
